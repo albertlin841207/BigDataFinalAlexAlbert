@@ -76,7 +76,7 @@ W<-spread(SumofType,key=name,value=ntype)
 barplot(as.matrix(W),width =10,space=0.2,main="前五名地區寶可夢種類統計",xlab="名稱",ylab="次數")
 ```
 ●統計每日事故量(折線圖與散布圖)
--互動式圖表用於觀察單一日期之事故數量。
+-互動式圖表用於觀察單一日期之事故數量。(互動式圖表可詳見於html檔案)
 -散步圖上畫上趨勢線。
 ```{r}
 SumofTime <- group_by(A2, day=`發生日期`)%>%
